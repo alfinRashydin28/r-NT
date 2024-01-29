@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+#cover {
+    width: 100%;
+    height: 120vh;
+    background-image: url("https://i.ibb.co/cDTzVV6/8e22e0b30d7f29e7c7f1e84cf2fa931b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-family: 'Concert One', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.awal {
+    margin-top: 40px;
+}
+
+.awal-i {
+    
+    width: 120px;
+}
+.sambutan {
+    width: 100%;
+  
+    text-align: center;
+    color: aliceblue;
+}
+
+.list-pertanyaan {
+    width: 100%;
+    
+   
+    text-align: center;
+    color: aliceblue;
+}
+
+#list-pertanyaan {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+ 
+}
+
+#tidak {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.g-pertanyaan {
+    padding-top: 40px;
+    width: 120px;
+    padding-bottom: 50px;
+}
+#isi {
+    width: 100%;
+
+    justify-content: center;
+    display: flex;
+}
+.bingkai {
+    width: 550px;
+    height:450px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* Spotify music card made by: csozi | Website: www.csozi.hu*/
+
+.card {
+     position: fixed;
+    bottom: 20px; /* Sesuaikan dengan jarak dari bawah layar */
+    right: 20px; /* Sesuaikan dengan jarak dari kanan layar */
+    width: 250px;
+    height: 72px;
+    background: #191414;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .top {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .pfp {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    height: 40px;
+    width: 40px;
+    background-color: #d2d2d2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title-1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  
+  .title-2 {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+
+  
+  .playing {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 1px;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .greenline {
+    background-color: #1db954;
+    height: 20px;
+    width: 2px;
+    position: relative;
+    transform-origin: bottom;
+  }
+  
+  .line-1 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.2s;
+  }
+  
+  .line-2 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.5s;
+  }
+  
+  .line-3 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.6s;
+  }
+  
+  .line-4 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0s;
+  }
+  
+  .line-5 {
+    animation: infinite playing 1s ease-in-out;
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes playing {
+    0% {
+      transform: scaleY(0.1);
+    }
+  
+    33% {
+      transform: scaleY(0.6);
+    }
+  
+    66% {
+      transform: scaleY(0.9);
+    }
+  
+    100% {
+      transform: scaleY(0.1);
+    }
+  }
+
+  button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+
+  
+.btn-p {
+    margin-top: 50px;
+}

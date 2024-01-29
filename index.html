@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAHASIA</title>
+    <link rel="stylesheet" href="./asset/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <section id="cover">
+
+        <div class="sambutan">
+            <h1>Klik Di bawahh inii cantikkkk</h1>
+            <!-- Tambahkan tombol di sini untuk menampilkan pertanyaan -->
+            <button class="awal" onclick="showQuestions()">
+                <img class="awal-i" src="https://rayyscoding.github.io/envelope.png" alt="Button Image">
+            </button>
+            <!-- Tambahkan tombol untuk pertanyaan lain jika diperlukan -->
+        </div>
+        
+            <div class="list-pertanyaan hidden ">
+
+            
+                    <div  class="pertanyaan-1 hidden ">
+                        <div id="isi">
+                            <div class="bingkai">
+                                <img class="g-pertanyaan" src="https://feeldreams.github.io/bwa2.gif" alt="">
+                                <h1>Aku Mauu Nanyaa Boleh ndakkkk hehehe?🫣</h1>
+        
+                                <div class="btn-p">
+                                    <button id="mauButton1" onclick="showPertanyaan1(2, 'Boleh')">Boleh</button>
+                                    <button id="tidakButton1" onclick="showP1Tidak()">Tidak Boleh</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+    
+                    <div class="pertanyaan-2 hidden">
+                        <div id="isi">
+                            <div class="bingkai">
+                                <img class="g-pertanyaan" src="https://i.ibb.co/bbRd5kL/cilukba.gif" alt="">
+                                <h1>Kamu suka sama aku ndakkk ciii cantikkkk?</h1>
+        
+                                <div class="btn-p">
+                                    <button id="mauButton2" onclick="showPertanyaan2(3, 'Iyaaa')">Suka</button>
+                                    <button id="tidakButton2" onclick="showP2Tidak()">Tidaa</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+    
+                    <div class="pertanyaan-3 hidden">
+                        <div id="isi">
+                            <div class="bingkai">
+                                <img class="g-pertanyaan" src="https://feeldreams.github.io/pandapanah.gif" alt="">
+                                <h1 id="n-ne"> Katanya hidup itu adalah pilihan <br/> Jadi.. Aku mau dong milih kamu <br/> buat jadi milik aku cantikkkkk😆🤭💗 <br/> <br/>Bowlehh ga nih? 😝💗</h1>
+            
+                                <div class="btn-p">
+                                    <button id="mauButton3" onclick="showPertanyaan3(3, 'Mauuuu')">Boleeee</button>
+                                    <button id="tidakButton3" onclick="showP3Tidak()">Tidaa</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                     
+                    </div>
+
+                    <div class="luv-3 hidden">
+                        <div id="isi">
+                            <div class="bingkai">
+                            <img class="g-pertanyaan" src="https://i.ibb.co/rHdNHGJ/0906-peacegoma.gif" alt="">
+                            
+                            <h1 id="n-luv"> yeyyyyyyyyy sekarang kamuu <br/> Jadi.. pacarrr akuu yahhh <br/> 🤭💗 <br> LOVEE YOUUU NAYLAA CAYANGG</h1>
+                            <h1 id="tanggal"></h1>
+                            <div class="btn-p">
+                                <button onclick="openWhatsApp()">KIRIMMM KE AKU</button>
+                            </div>
+                            
+
+                             
+                            </div>
+                            
+                        </div>
+                     
+                    </div>
+                
+
+
+                    
+            </div>
+
+            <div id="tidak" class="p1-tidak hidden">
+                <img src="https://i.ibb.co/4Wh4mg7/wortel.gif" alt="">
+                <p>Yaaahhh🥺 yaudah deh kalau ndaaaa bolee huhuhu     </p>
+            </div>
+
+            <div id="tidak" class="p2-tidak hidden">
+                <img src="https://i.ibb.co/4Wh4mg7/wortel.gif" alt="">
+                <p>Yaaahhh🥺 yaudah deh kalau emang kamu ndak suka sama aku,<br/> yang pentingg aku sayangg kamuu cantikkkk hehehe         </p>
+            </div>
+           
+            
+            
+
+            <div class="musik">
+                <div class="card">
+                    <div class="top">
+                    <div class="pfp">
+                      <div class="playing">
+                        <div class="greenline line-1"></div>
+                        <div class="greenline line-2"></div>
+                        <div class="greenline line-3"></div>
+                        <div class="greenline line-4"></div>
+                        <div class="greenline line-5"></div>
+                      </div>
+                    </div>
+                    <div class="texts">
+                        <p class="title-1">Penjaga Hati</p>
+                        <p class="title-2">nadhif basalamah</p>
+                    </div>
+                    </div>     
+
+                    <audio autoplay>
+                        <source src="https://rawcdn.githack.com/alfinRashydin28/iptv-a/9d8e7c507eae09fa2f23f08397cb305075748e51/72ce3f493442cf4f86de6e8eaf8a24d9.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+    
+    </section>
+    
+   
+
+    
+
+    <script src="./asset/javascript.js"></script>
+    <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
+ 
+</body>
+</html>
